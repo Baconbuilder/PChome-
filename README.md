@@ -1,5 +1,9 @@
-# PChome 價格追蹤工具
+# PChome 價格追蹤工具  
 ## 功能簡介  
+自動追蹤PChome 網站商品價格，當商品價格變動時，傳送LINE訊息通知使用者  
+提供GUI介面，方便使用者操作。  
+
+## 功能說明  
 * **價格追蹤**：使用 Selenium 自動追蹤價格
 * **價格變動通知**：一旦價格發生變化，即透過 LINE Notify 傳送 LINE 通知  
   ![method](https://raw.githubusercontent.com/HUAN-LUN/PChome-/main/result/3.png)
