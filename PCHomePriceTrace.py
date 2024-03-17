@@ -7,7 +7,7 @@ import time
 import requests
 
 url = 'https://notify-api.line.me/api/notify' #LINE API
-token ='4RS1DfjiHhxCkhagH4QDj4J6yJUH4XQQjdmoyU0M05A' 
+token ='' #輸入你的 LINE notify token 
 
 def lineNotify(token,msg): #用來發送LINE 訊息
     headers = {
