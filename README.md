@@ -13,5 +13,5 @@
   ![method](https://raw.githubusercontent.com/HUAN-LUN/PChome-/main/result/2.png)  
   ![method](https://raw.githubusercontent.com/HUAN-LUN/PChome-/main/result/4.png)    
 * 使用多執行緒 (threading)防止GUI視窗卡死
-## 使用注意
-* 須將 PCHomePriceTrace 當中的
+## 注意
+* 使用前須將 PCHomePriceTrace.py 當中的token變數 輸入你的 LINE notify token
