@@ -13,7 +13,7 @@ def getURL():
         response.config(text="請輸入有效的價格閾值", fg="red")
         return
     else:
-        response.config(text="成功開始追蹤價格", fg="green")
+        response.config(text="成功開始追蹤價格", fg="white")
         threading.Thread(target=pchomePriceTrace, args=(URL, int(threshold) if threshold else None), daemon=True).start()
 
 root = tk.Tk()
